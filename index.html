@@ -1,12 +1,15 @@
 <!doctype html>
-<html>
+<html ng-app="app">
 <head>
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Angular Application</title>
 </head>
-<body>
+<body ng-controller="MainController">
+
+  <h1>{{ year }}</h1>
+  <h2>{{ contact.name }}</h2>
 
     <script src="js/angular.js"></script>
     <script src="js/app/app.js"></script>
